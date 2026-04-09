@@ -1,4 +1,4 @@
-/* ===== RESET & BASE ===== */
+/*  RESET & BASE  */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -38,7 +38,7 @@ ul { list-style: none; }
   padding: 0 1.5rem;
 }
 
-/* ===== NAVBAR ===== */
+/*  NAVBAR  */
 .navbar {
   background: var(--ink);
   position: sticky;
@@ -175,7 +175,7 @@ ul { list-style: none; }
   transition: 0.3s;
 }
 
-/* ===== HERO ===== */
+/*  HERO  */
 .hero {
   padding: 5rem 1.5rem 4rem;
   max-width: 1120px;
@@ -347,7 +347,7 @@ ul { list-style: none; }
 .node-4 { top: 50%; left: -36px; transform: translateY(-50%); }
 .node-5 { top: 18%; right: 2%; }
 
-/* ===== SECTION SHARED ===== */
+/*  SECTION SHARED  */
 .section-label {
   font-size: 0.72rem;
   font-weight: 500;
@@ -376,7 +376,7 @@ ul { list-style: none; }
   max-width: 520px;
 }
 
-/* ===== WHY SECTION ===== */
+/*  WHY SECTION  */
 .why-section {
   padding: 5rem 0;
   background: var(--white);
@@ -428,7 +428,7 @@ ul { list-style: none; }
   line-height: 1.65;
 }
 
-/* ===== PRODUCTS ===== */
+/*  PRODUCTS  */
 .products-section {
   padding: 5rem 0;
 }
@@ -530,7 +530,7 @@ ul { list-style: none; }
 }
 .product-link:hover { opacity: 0.75; }
 
-/* ===== TESTIMONIALS ===== */
+/* TESTIMONIALS  */
 .testimonials-section {
   padding: 5rem 0;
   background: var(--white);
@@ -639,7 +639,7 @@ ul { list-style: none; }
   padding-bottom: 1rem;
 }
 
-/* ===== CTA ===== */
+/*  CTA  */
 .cta-section {
   background: var(--ink);
   padding: 5rem 1.5rem;
@@ -776,7 +776,7 @@ ul { list-style: none; }
   color: rgba(255,255,255,0.25);
 }
 
-/* ===== RESPONSIVE ===== */
+/*  RESPONSIVE  */
 @media (max-width: 900px) {
   .hero-inner { grid-template-columns: 1fr; gap: 2.5rem; }
   .hero { min-height: auto; padding: 3rem 1.5rem; }

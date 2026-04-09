@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  // ===== Mobile hamburger menu =====
+  //  Mobile hamburger menu 
   const hamburger = document.getElementById('hamburger');
   const navLinks = document.getElementById('navLinks');
 
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ===== FAQ accordion =====
+  //  FAQ accordion 
   window.toggleFaq = function(btn) {
     const answer = btn.nextElementSibling;
     const icon = btn.querySelector('.faq-icon');
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  // ===== Smooth scroll =====
+  //  Smooth scroll 
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
       const target = document.querySelector(this.getAttribute('href'));
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // ===== Fade-in animation =====
+  //  Fade-in animation 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
